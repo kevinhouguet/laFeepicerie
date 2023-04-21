@@ -1,0 +1,47 @@
+html{}
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 10px;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.content{
+	vertical-align: top;
+	padding-left: 10px;
+	display: inline-block;
+	width: 730px;
+}
+.nav{
+	width: 200px;
+	margin: 0;
+	display: inline-block;
+	padding:0px;
+	padding-left: 10px;
+	border-right: 2px solid #000;
+}
+.nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.nav a:hover{
+	background-color: #4b9dd9;
+	color: white;
+}
+.ContBDD{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 100%;
+	display: block;
+}
+.ContBDD td, .ContBDD th{
+	border: 1px solid #000;
+}

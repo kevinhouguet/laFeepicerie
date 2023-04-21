@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule (admin/) admin/index.php [L]
+RewriteRule (.*) webroot/$1 [L]

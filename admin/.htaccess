@@ -1,0 +1,6 @@
+AuthUserFile C:\wamp\www\laFeePicerie.fr\admin\pass\.htpasswd
+AuthName "Acces Restreint"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

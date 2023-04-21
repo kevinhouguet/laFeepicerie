@@ -1,0 +1,1 @@
+<h1 id="error404">404 Not Found !</h1>
